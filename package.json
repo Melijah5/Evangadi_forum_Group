@@ -7,13 +7,14 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "concurrently \"nodemon server.js\" \"npm run client\"",
 		"client": "npm start --prefix client",
-		"start": "nodemon server.js"
+		"start": "nodemon server.js",
+		"build": "react-scripts build"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"axios": "^0.26.0",
 		"bcryptjs": "^2.4.3",
+		"build": "^0.1.4",
 		"concurrently": "^7.6.0",
 		"config": "^3.3.9",
 		"cors": "^2.8.5",
@@ -21,10 +22,8 @@
 		"express": "^4.18.2",
 		"express-validator": "^6.14.3",
 		"jsonwebtoken": "^8.5.1",
-		"my-sql": "^1.2.15",
 		"mysql": "^2.18.1",
-		"react-scripts": "^5.0.1",
-		"request": "^2.88.2"
+		"react-scripts": "^5.0.1"
 	},
 	"devDependencies": {
 		"@types/bcryptjs": "^2.4.2",
